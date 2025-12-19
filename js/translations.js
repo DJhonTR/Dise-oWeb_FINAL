@@ -7,17 +7,17 @@ const translations = {
     nav_ropa_bebe: 'Ropa de Bebé',
     nav_login: 'Ingresar',
     nav_register: 'Registro',
-    
+
     home_title: 'Novedades "MisJhon"',
     home_headline: 'Todo lo que buscas, en un solo lugar',
     home_description: 'Descubre regalos únicos para cada ocasión. Arreglos de rosas eternas, ropa de bebé, juguetes y peluches de la mejor calidad.',
     home_how_to_find: '¿Cómo encontrarnos?',
-    
+
     cat_arreglos: 'Arreglos de Rosas Eternas',
     cat_juguetes: 'Juguetes',
     cat_peluches: 'Peluches',
     cat_ropa_bebe: 'Ropa de Bebé',
-    
+
     footer_about: 'Nosotros',
     footer_privacy: 'Política de Privacidad y Términos de Servicio',
     footer_contact: 'Información de Contacto',
@@ -25,7 +25,7 @@ const translations = {
     footer_privacy: 'Política de Privacidad y Términos de Servicio',
     footer_contact: 'Información de Contacto',
     footer_description: 'Encuentra el regalo ideal para cualquier ocasión. Ofrecemos arreglos de rosas eternas, peluches, juguetes y ropa de bebé, perfectos para celebrar los momentos más especiales de la vida.',
-    
+
     form_name: 'Nombre',
     form_email: 'Correo Electrónico',
     form_password: 'Contraseña',
@@ -35,30 +35,151 @@ const translations = {
     form_submit: 'Enviar',
     form_login: 'Iniciar Sesión',
     form_register: 'Registrarse',
-    
+
     btn_buy: 'Comprar',
     btn_details: 'Ver Detalles',
     btn_add_cart: 'Agregar al Carrito',
-    
+
     theme_toggle: 'Cambiar Tema',
     theme_dark: 'Modo Oscuro',
     theme_light: 'Modo Claro',
+
+
+    form_purchase_title: 'Formulario de Compra por Delivery',
+    form_purchase_subtitle: 'Completa tus datos de envío',
+    placeholder_name: 'Nombre',
+    placeholder_surname: 'Apellido',
+    placeholder_email: 'Correo Electrónico',
+    placeholder_phone: 'Teléfono (ej. 987654321)',
+    placeholder_address: 'Dirección (Calle, Av., Nro, Dpto.)',
+    select_district: 'Seleccione Distrito',
+    payment_method: 'Método de Pago',
+    payment_card: 'Tarjeta de Crédito/Débito',
+    payment_yape: 'Yape / Plin',
+    card_data: 'Datos de la Tarjeta',
+    placeholder_card_number: 'Número de Tarjeta (xxxx xxxx xxxx xxxx)',
+    placeholder_card_date: 'MM/AA',
+    placeholder_cvc: 'CVC',
+    scan_to_pay: 'Escanea para Pagar (Yape)',
+    send_screenshot: 'Envía la captura de pantalla al WhatsApp.',
+    btn_purchase: 'COMPRAR',
+
+
+    form_login_title: 'Ingresar',
+    form_login_subtitle: 'Ingresa tus datos',
+    placeholder_password: 'Contraseña',
+    btn_login: 'Ingresar',
+    no_account: '¿No tienes una cuenta?',
+    register_link: 'Regístrate',
+
+
+    form_register_title: 'Crear una cuenta',
+    form_register_subtitle: 'Ingresa tus datos personales',
+    placeholder_fullname: 'Nombre completo',
+    placeholder_phone_register: 'Número de teléfono',
+    placeholder_address_full: 'Dirección completa',
+    placeholder_confirm_password: 'Confirmar contraseña',
+    btn_create_account: 'Crear cuenta',
+    passwords_match: '✔ Las contraseñas coinciden',
+    passwords_no_match: '✖ Las contraseñas no coinciden',
 
     arreglos: 'Nuestros Arreglos',
     juguetes: 'Nuestros Juguetes',
     peluches: 'Nuestros Peluches',
     ropa_bebe: 'Nuestra Ropa de Bebé',
+    nosotros: 'Quienes Somos',
+    n1: 'Somos Novedades "MisJhon", un proyecto que nació de la pasión por crear cosas con significado. Todo comenzó con una idea sencilla: ¿y si pudiéramos unir la ternura de la niñez con la belleza que dura para siempre? Así decidimos crear un espacio donde ambos mundos se encuentran. Cada producto que ves en nuestra tienda es el resultado de ese sueño.',
+    n2: 'En nuestra tienda, cada artículo es seleccionado con mucho cuidado. Por un lado, tenemos peluches, juguetes y ropa para bebé que son más que simples objetos; son compañeros de aventuras y prendas que celebran la comodidad y la alegría de crecer. Por otro lado, y lo que nos hace realmente únicos, son nuestros arreglos con flores eternas. Estas no son flores comunes; son creaciones artesanales que conservan su belleza y frescura por años, diseñadas para capturar un momento de belleza y recordarlo para siempre.',
+    n3: 'Creemos que los mejores regalos son aquellos que tienen una historia detrás y que están hechos con el corazón. Por eso, nos esforzamos en cada detalle, desde el diseño de nuestros productos hasta la forma en que llegan a tus manos. Queremos ser parte de tus momentos especiales y ayudarte a crear recuerdos inolvidables. Gracias por visitarnos y por ser parte de nuestra historia.',
 
     titulo_arreglos: 'Colección de Arreglos de Rosas Eternas',
     descripcion_arreglos: 'Descubre nuestra colección exclusiva de arreglos de rosas eternas, diseñados para capturar la belleza y el amor que perduran para siempre. Perfectos para regalar en ocasiones especiales o para decorar tu hogar con un toque de elegancia y sofisticación.',
     titulo_juguetes: 'Colección de Juguetes',
     descripcion_juguetes: 'Explora nuestra encantadora colección de juguetes, cuidadosamente seleccionados para todas las edades. Desde juguetes educativos hasta figuras de acción, tenemos el regalo perfecto para cada niño y ocasión.',
     titulo_peluches: 'Colección de Peluches',
-    descripcion_peluches:'Encuentre el peluche perfecto para regalar o para consentir a alguien especial. Nuestra colección incluye una variedad de adorables peluches que seguramente traerán sonrisas y alegría a cualquier ocasión.',
+    descripcion_peluches: 'Encuentre el peluche perfecto para regalar o para consentir a alguien especial. Nuestra colección incluye una variedad de adorables peluches que seguramente traerán sonrisas y alegría a cualquier ocasión.',
     titulo_ropa_bebe: 'Colección de Ropa de Bebé',
     descripcion_ropa_bebe: 'Descubre nuestra adorable colección de ropa de bebé, diseñada para brindar comodidad y estilo a los más pequeños. Desde conjuntos suaves hasta accesorios encantadores, tenemos todo lo que necesitas para vestir a tu bebé con ternura y funcionalidad.',
+
+    ia1: 'Aquí en Novedades "MisJhon", nuestros arreglos de flores eternas son mucho más que un simple ramo. Son piezas de arte que capturan la belleza efímera de la naturaleza y la preservan para siempre. A diferencia de las flores frescas que se marchitan en pocos días, nuestras flores han pasado por un proceso de conservación especial que les permite mantener su forma, color y suavidad por años, sin necesidad de agua o luz solar. Cada arreglo es una obra única, diseñada y elaborada a mano con un cuidado y una atención al detalle que reflejan el valor de lo artesanal. Con ellas, puedes celebrar un momento especial y atesorar su belleza como un recuerdo duradero.',
+    ia2: 'Nuestra colección de arreglos de flores eternas es tan diversa como los sentimientos que quieres expresar. Ya sea que busques un arreglo elegante para decorar un espacio, un detalle romántico para un aniversario o un regalo significativo para un ser querido, tenemos la pieza perfecta para cada ocasión. Nos enorgullece ofrecer una alternativa sostenible y duradera a las flores tradicionales, permitiéndote regalar belleza sin límites de tiempo. Te invitamos a explorar nuestra galería y a encontrar el arreglo que hable por sí mismo, convirtiendo un simple regalo en un símbolo de amor y aprecio que durará por años.',
+
+    ij1: 'En Novedades "MisJhon", creemos que el juego es una parte fundamental del crecimiento y la exploración. Nuestra sección de juguetes no es un simple catálogo, sino una cuidadosa selección de compañeros para la aventura, la creatividad y el aprendizaje. Elegimos cada juguete pensando en su calidad, seguridad y la capacidad que tiene para inspirar la imaginación de los más pequeños. Desde peluches que se convierten en confidentes inseparables, hasta juegos que desafían la mente y fomentan nuevas habilidades, cada artículo está diseñado para ser más que un objeto: es una herramienta para la diversión y el desarrollo.',
+    ij2: 'Nuestros juguetes están hechos para durar y para acompañar a los niños en sus descubrimientos. Nos aseguramos de que cada uno cumpla con los más altos estándares de seguridad y que sea ideal para las diferentes etapas de la infancia. Por eso, nos enorgullece ofrecer artículos que no solo entretienen, sino que también contribuyen a crear recuerdos valiosos y a fomentar la curiosidad natural de los niños. Te invitamos a explorar nuestra colección y a encontrar ese juguete perfecto que hará sonreír a alguien y que, sin duda, se convertirá en parte de su historia.',
+
+    ip1: 'En Novedades "MisJhon", nuestros peluches son mucho más que simples juguetes; son los primeros mejores amigos, confidentes y compañeros de aventuras. Cada uno de ellos ha sido cuidadosamente seleccionado por su inigualable suavidad y su capacidad de ofrecer un abrazo cálido y reconfortante. Entendemos que un peluche puede convertirse en un miembro de la familia, por lo que nos aseguramos de que cada uno cumpla con los más altos estándares de calidad y seguridad, diseñados para soportar innumerables horas de juego, abrazos y siestas.',
+    ip2: 'Nuestros juguetes están hechos para durar y para acompañar a los niños en sus descubrimientos. Nos aseguramos de que cada uno cumpla con los más altos estándares de seguridad y que sea ideal para las diferentes etapas de la infancia. Por eso, nos enorgullece ofrecer artículos que no solo entretienen, sino que también contribuyen a crear recuerdos valiosos y a fomentar la curiosidad natural de los niños. Te invitamos a explorar nuestra colección y a encontrar ese juguete perfecto que hará sonreír a alguien y que, sin duda, se convertirá en parte de su historia.',
+
+    ir1: 'En Novedades "MisJhon", entendemos que la ropa para bebé es mucho más que solo vestimenta; es una segunda piel que debe ser tan suave y delicada como ellos. Nuestra colección de ropa está cuidadosamente seleccionada para ofrecer el máximo confort y seguridad. Cada prenda es elegida por sus materiales de alta calidad, que son amigables con la piel sensible, transpirables y diseñados para resistir el ritmo del día a día, desde los juegos hasta las siestas. Nos enfocamos en un diseño práctico y adorable que facilite los cambios de pañal y el movimiento, haciendo la vida más sencilla para los padres y más cómoda para los pequeños.',
+    ir2: 'Creemos que vestir a un bebé debería ser un momento de conexión y alegría. Por eso, nuestra gama de ropa va desde bodys y pijamas esenciales para el día a día, hasta conjuntos y vestidos perfectos para celebrar esos primeros momentos especiales. Cada pieza refleja nuestro compromiso con la calidad y la comodidad, asegurando que tu bebé esté siempre protegido y con estilo. Te invitamos a explorar nuestra colección y a encontrar la prenda perfecta que no solo se ve bien, sino que también se siente increíble.',
+
+    privacy_title: 'Términos y Condiciones',
+    privacy_nav_purpose: 'Propósito',
+    privacy_nav_account: 'Registro de Cuenta',
+    privacy_nav_purchase: 'Proceso de Compra',
+    privacy_nav_shipping: 'Envío y Entrega',
+    privacy_nav_returns: 'Política de Devoluciones',
+    privacy_nav_privacy: 'Política de Privacidad',
+    privacy_nav_ip: 'Propiedad Intelectual',
+    privacy_nav_limitation: 'Limitación',
+    privacy_nav_contact: 'Contacto',
+
+    contact_title: 'Información de Contacto',
+    contact_email: 'Correo electrónico:',
+    contact_phone: 'Número Telefónico:',
+    contact_social: 'Redes Sociales:',
+
+    a1: 'Arreglo de rosas eternas con osito cariñosito',
+    a2: 'Arreglo de rosas eternas con peluche Angela',
+    a3: 'Rosa eterna con frase "Feliz Cumple"',
+    a4: 'Rosa eterna rosado pastel',
+    a5: 'Rosa eterna azul',
+    a6: 'Girasol con frase "Feliz Cumple"',
+    a7: 'Arreglo de rosas eternas con mariposas',
+    a8: 'Arreglo con 19 rosas eternas, con frase y corona',
+    a9: 'Arreglo de rosas eternas con flores blancas',
+    a10: 'Arreglo de rosas blancas y rosas con coronita',
+    a11: 'Arreglo con corazón fuego, frase Feliz cumpleaños',
+    a12: 'Graduado con tulipanes',
+    a13: 'Ramo con carrito HotWheel',
+    a14: 'Stich importado ,con rosas eternas',
+    a15: 'Girasoles eternos',
+    a16: 'Arreglo de rosas eternas rojas con osito',
+    a17: 'Girasol más tulipanes',
+    a18: 'Arreglo de rosas eternas amarillas con osito blanco',
+    a19: 'Arreglo de tulipanes rosas con golosinas y peluche',
+    a20: 'Arreglo de osito minero con rosas eternas azules',
+    a21: 'Arreglo de rosas azules con peluche de pinguino',
+
+    j1: 'Excavadora de Juguete',
+    j2: 'Sonaja 8 unidades (animalitos)',
+    j3: 'Set de Maquinaria pesada',
+    j4: 'Excavadora y Camión',
+    j5: 'Carrito feliz ABC123',
+    j6: 'Set de alimentos con pega-pega',
+    j7: 'Set de cocina 3 en 1',
+    j8: 'Cono de Aros apilables',
+    j9: 'Carro a control remoto rojo',
+
+    p1: 'Osito con corazón "Te quiero"',
+    p2: 'Pinguino antialergico con gorro y mochila',
+    p3: 'Osito musical con corazon "Love You"',
+    p4: 'Osito con corbatin celeste',
+    p5: 'Peluche de Lopso dormido',
+    p6: 'Erizo peluche antialergico',
+
+    r1: 'Conjunto de algodón rojo (niño)',
+    r2: 'Conjunto de algodón rosa (niña)',
+    r3: 'Trajecito de algodon rojo (niño)',
+    r4: 'Conjunto de algodón con diseño de rosas',
+    r5: 'Conjunto de algodón celeste y gris (niño)',
+    r6: 'Conjunto para niño diseño de dinosaurios',
+    r7: 'Conjunto forrado marrón (niño)',
+    r8: 'Conjunto de 5 piezas kitty',
+    r9: 'Vestido de algodon rojo y blanco',
+
   },
-  
+
   en: {
     nav_arreglos: 'Arrangements',
     nav_juguetes: 'Toys',
@@ -66,22 +187,22 @@ const translations = {
     nav_ropa_bebe: 'Baby Clothes',
     nav_login: 'Login',
     nav_register: 'Register',
-    
+
     home_title: 'MisJhon News',
     home_headline: 'Everything you are looking for, in one place',
     home_description: 'Discover unique gifts for every occasion. Eternal rose arrangements, baby clothes, toys and stuffed animals of the best quality.',
     home_how_to_find: 'How to find us?',
-    
+
     cat_arreglos: 'Eternal Rose Arrangements',
     cat_juguetes: 'Toys',
     cat_peluches: 'Plushies',
     cat_ropa_bebe: 'Baby Clothes',
-    
+
     footer_about: 'About Us',
     footer_privacy: 'Privacy Policy and Terms of Service',
     footer_contact: 'Contact Information',
     footer_description: 'Find the ideal gift for any occasion. We offer eternal rose arrangements, stuffed animals, toys and baby clothes, perfect for celebrating life\'s most special moments.',
-    
+
     form_name: 'Name',
     form_email: 'Email',
     form_password: 'Password',
@@ -91,21 +212,62 @@ const translations = {
     form_submit: 'Submit',
     form_login: 'Log In',
     form_register: 'Sign Up',
-    
+
 
     btn_buy: 'Buy',
     btn_details: 'View Details',
     btn_add_cart: 'Add to Cart',
-    
+
 
     theme_toggle: 'Change Theme',
     theme_dark: 'Dark Mode',
     theme_light: 'Light Mode',
 
+
+    form_purchase_title: 'Delivery Purchase Form',
+    form_purchase_subtitle: 'Complete your shipping details',
+    placeholder_name: 'Name',
+    placeholder_surname: 'Surname',
+    placeholder_email: 'Email',
+    placeholder_phone: 'Phone (e.g. 987654321)',
+    placeholder_address: 'Address (Street, Ave., No., Apt.)',
+    select_district: 'Select District',
+    payment_method: 'Payment Method',
+    payment_card: 'Credit/Debit Card',
+    payment_yape: 'Yape / Plin',
+    card_data: 'Card Details',
+    placeholder_card_number: 'Card Number (xxxx xxxx xxxx xxxx)',
+    placeholder_card_date: 'MM/YY',
+    placeholder_cvc: 'CVC',
+    scan_to_pay: 'Scan to Pay (Yape)',
+    send_screenshot: 'Send the screenshot to WhatsApp.',
+    btn_purchase: 'PURCHASE',
+
+    form_login_title: 'Login',
+    form_login_subtitle: 'Enter your details',
+    placeholder_password: 'Password',
+    btn_login: 'Login',
+    no_account: 'Don\'t have an account?',
+    register_link: 'Sign up',
+
+    form_register_title: 'Create an account',
+    form_register_subtitle: 'Enter your personal details',
+    placeholder_fullname: 'Full name',
+    placeholder_phone_register: 'Phone number',
+    placeholder_address_full: 'Full address',
+    placeholder_confirm_password: 'Confirm password',
+    btn_create_account: 'Create account',
+    passwords_match: '✔ Passwords match',
+    passwords_no_match: '✖ Passwords do not match',
+
     arreglos: 'Our Arrangements',
     juguetes: 'Our Toys',
     peluches: 'Our Plushies',
     ropa_bebe: 'Our Baby Clothes',
+    nosotros: 'Who We Are',
+    n1: 'We are "MisJhon", a project born from the passion for creating things with meaning. It all started with a simple idea: what if we could combine the tenderness of childhood with beauty that lasts forever? That is how we decided to create a space where both worlds meet. Every product you see in our store is the result of that dream.',
+    n2: 'In our store, every item is selected with great care. On one hand, we have plushies, toys, and baby clothes that are more than just objects; they are adventure companions and garments that celebrate comfort and the joy of growing up. On the other hand, and what makes us truly unique, are our eternal flower arrangements. These are not ordinary flowers; they are handcrafted creations that preserve their beauty and freshness for years, designed to capture a moment of beauty and remember it forever.',
+    n3: 'We believe that the best gifts are those that have a story behind them and are made with heart. That is why we strive in every detail, from the design of our products to the way they reach your hands. We want to be part of your special moments and help you create unforgettable memories. Thank you for visiting us and for being part of our story.',
 
     titulo_arreglos: 'Eternal Rose Arrangements Collection',
     descripcion_arreglos: 'Discover our exclusive collection of eternal rose arrangements, designed to capture the beauty and love that lasts forever. Perfect for gifting on special occasions or decorating your home with a touch of elegance and sophistication.',
@@ -116,8 +278,85 @@ const translations = {
     titulo_ropa_bebe: 'Baby Clothes Collection',
     descripcion_ropa_bebe: 'Discover our adorable collection of baby clothes, designed to provide comfort and style to the smallest. From soft sets to enchanting accessories, we have everything you need to dress your baby with tenderness and functionality.',
 
+    ia1: 'Here at \"MisJhon\" News, our eternal flower arrangements are much more than a simple bouquet. They are pieces of art that capture the ephemeral beauty of nature and preserve it forever. Unlike fresh flowers that wilt in just a few days, our flowers have gone through a special preservation process that allows them to maintain their shape, color, and softness for years, without the need for water or sunlight. Each arrangement is a unique work, designed and handcrafted with care and attention to detail that reflect the value of artisanal craftsmanship. With them, you can celebrate a special moment and treasure their beauty as a lasting memory.',
+    ia2: 'Our collection of eternal flower arrangements is as diverse as the feelings you want to express. Whether you are looking for an elegant arrangement to decorate a space, a romantic detail for an anniversary, or a meaningful gift for a loved one, we have the perfect piece for every occasion. We are proud to offer a sustainable and long-lasting alternative to traditional flowers, allowing you to gift beauty without time limits. We invite you to explore our gallery and find the arrangement that speaks for itself, turning a simple gift into a symbol of love and appreciation that will last for years.',
+
+    ij1: 'At \"MisJhon\" News, we believe that play is a fundamental part of growth and exploration. Our toy section is not just a simple catalog, but a careful selection of companions for adventure, creativity, and learning. We choose each toy thinking about its quality, safety, and ability to inspire the imagination of little ones. From plushies that become inseparable confidants, to games that challenge the mind and foster new skills, each item is designed to be more than an object: it is a tool for fun and development.',
+    ij2: 'Our toys are made to last and to accompany children in their discoveries. We make sure that each one meets the highest safety standards and is ideal for the different stages of childhood. That is why we are proud to offer items that not only entertain but also help create valuable memories and foster children\'s natural curiosity. We invite you to explore our collection and find that perfect toy that will make someone smile and will undoubtedly become part of their story.',
+
+    ip1: 'At \"MisJhon\" News, our plushies are much more than simple toys; they are the first best friends, confidants, and adventure companions. Each one has been carefully selected for its unmatched softness and ability to offer a warm and comforting hug. We understand that a plushie can become a family member, so we make sure each one meets the highest quality and safety standards, designed to withstand countless hours of play, hugs, and naps.',
+    ip2: 'Our toys are made to last and to accompany children in their discoveries. We make sure that each one meets the highest safety standards and is ideal for the different stages of childhood. That is why we are proud to offer items that not only entertain but also help create valuable memories and foster children\'s natural curiosity. We invite you to explore our collection and find that perfect toy that will make someone smile and will undoubtedly become part of their story.',
+
+    ir1: 'At \"MisJhon\" News, we understand that baby clothes are much more than just clothing; they are a second skin that should be as soft and delicate as they are. Our clothing collection is carefully selected to offer maximum comfort and safety. Each garment is chosen for its high-quality materials, which are skin-friendly, breathable, and designed to withstand the rhythm of everyday life, from playtime to naps. We focus on practical and adorable design that makes diaper changes and movement easier, making life simpler for parents and more comfortable for little ones.',
+    ir2: 'We believe that dressing a baby should be a moment of connection and joy. That is why our clothing range goes from essential bodysuits and pajamas for everyday wear, to outfits and dresses perfect for celebrating those first special moments. Each piece reflects our commitment to quality and comfort, ensuring your baby is always protected and stylish. We invite you to explore our collection and find the perfect garment that not only looks good but also feels amazing.',
+
+    privacy_title: 'Terms and Conditions',
+    privacy_nav_purpose: 'Purpose',
+    privacy_nav_account: 'Account Registration',
+    privacy_nav_purchase: 'Purchase Process',
+    privacy_nav_shipping: 'Shipping and Delivery',
+    privacy_nav_returns: 'Return Policy',
+    privacy_nav_privacy: 'Privacy Policy',
+    privacy_nav_ip: 'Intellectual Property',
+    privacy_nav_limitation: 'Limitation',
+    privacy_nav_contact: 'Contact',
+
+    contact_title: 'Contact Information',
+    contact_email: 'Email:',
+    contact_phone: 'Phone Number:',
+    contact_social: 'Social Networks:',
+
+    a1: 'Eternal rose arrangement with cuddly teddy bear',
+    a2: 'Eternal rose arrangement with Angela plush',
+    a3: 'Eternal rose with "Happy Birthday" phrase',
+    a4: 'Pastel pink eternal rose',
+    a5: 'Blue eternal rose',
+    a6: 'Sunflower with "Happy Birthday" phrase',
+    a7: 'Eternal rose arrangement with butterflies',
+    a8: 'Arrangement with 19 eternal roses, phrase and crown',
+    a9: 'Eternal rose arrangement with white flowers',
+    a10: 'White and pink rose arrangement with little crown',
+    a11: 'Fire heart arrangement, Happy Birthday phrase',
+    a12: 'Graduation plush with tulips',
+    a13: 'Bouquet with Hot Wheels car',
+    a14: 'Imported Stitch with eternal roses',
+    a15: 'Eternal sunflowers',
+    a16: 'Red eternal rose arrangement with teddy bear',
+    a17: 'Sunflower plus tulips',
+    a18: 'Yellow eternal rose arrangement with white teddy bear',
+    a19: 'Pink tulip arrangement with sweets and plush',
+    a20: 'Miner teddy bear arrangement with blue eternal roses',
+    a21: 'Blue rose arrangement with penguin plush',
+
+    j1: 'Toy Excavator',
+    j2: 'Rattle Set 8 pieces (little animals)',
+    j3: 'Heavy Machinery Set',
+    j4: 'Excavator and Truck',
+    j5: 'Happy Car ABC123',
+    j6: 'Velcro Food Cutting Set',
+    j7: '3-in-1 Kitchen Set',
+    j8: 'Stacking Rings Cone',
+    j9: 'Red Remote Control Car',
+
+    p1: 'Teddy bear with "I love you" heart',
+    p2: 'Hypoallergenic penguin with hat and backpack',
+    p3: 'Musical teddy bear with "Love You" heart',
+    p4: 'Teddy bear with light blue bow tie',
+    p5: 'Sleeping Lotso plush',
+    p6: 'Hypoallergenic hedgehog plush',
+
+    r1: 'Red cotton outfit (boy)',
+    r2: 'Pink cotton outfit (girl)',
+    r3: 'Little red cotton suit (boy)',
+    r4: 'Cotton outfit with rose design',
+    r5: 'Light blue and gray cotton outfit (boy)',
+    r6: 'Boy\'s outfit with dinosaur design',
+    r7: 'Brown lined outfit (boy)',
+    r8: '5-piece Kitty set',
+    r9: 'Red and white cotton dress',
+
   },
-  
+
   pt: {
 
     nav_arreglos: 'Arranjos',
@@ -126,25 +365,25 @@ const translations = {
     nav_ropa_bebe: 'Roupa de Bebê',
     nav_login: 'Entrar',
     nav_register: 'Registrar',
-    
+
 
     home_title: 'Novidades "MisJhon"',
     home_headline: 'Tudo o que você procura, em um só lugar',
     home_description: 'Descubra presentes únicos para cada ocasião. Arranjos de rosas eternas, roupas de bebê, brinquedos e pelúcias da melhor qualidade.',
     home_how_to_find: 'Como nos encontrar?',
-    
+
 
     cat_arreglos: 'Arranjos de Rosas Eternas',
     cat_juguetes: 'Brinquedos',
     cat_peluches: 'Pelúcias',
     cat_ropa_bebe: 'Roupa de Bebê',
-    
+
 
     footer_about: 'Sobre Nós',
     footer_privacy: 'Política de Privacidade e Termos de Serviço',
     footer_contact: 'Informações de Contato',
     footer_description: 'Encontre o presente ideal para qualquer ocasião. Oferecemos arranjos de rosas eternas, pelúcias, brinquedos e roupas de bebê, perfeitos para celebrar os momentos mais especiais da vida.',
-    
+
 
     form_name: 'Nome',
     form_email: 'E-mail',
@@ -155,21 +394,61 @@ const translations = {
     form_submit: 'Enviar',
     form_login: 'Entrar',
     form_register: 'Cadastrar',
-    
+
 
     btn_buy: 'Comprar',
     btn_details: 'Ver Detalhes',
     btn_add_cart: 'Adicionar ao Carrinho',
-    
+
 
     theme_toggle: 'Mudar Tema',
     theme_dark: 'Modo Escuro',
     theme_light: 'Modo Claro',
 
+    form_purchase_title: 'Formulário de Compra por Entrega',
+    form_purchase_subtitle: 'Complete seus dados de envio',
+    placeholder_name: 'Nome',
+    placeholder_surname: 'Sobrenome',
+    placeholder_email: 'E-mail',
+    placeholder_phone: 'Telefone (ex. 987654321)',
+    placeholder_address: 'Endereço (Rua, Av., Nº, Apto.)',
+    select_district: 'Selecione Distrito',
+    payment_method: 'Método de Pagamento',
+    payment_card: 'Cartão de Crédito/Débito',
+    payment_yape: 'Yape / Plin',
+    card_data: 'Dados do Cartão',
+    placeholder_card_number: 'Número do Cartão (xxxx xxxx xxxx xxxx)',
+    placeholder_card_date: 'MM/AA',
+    placeholder_cvc: 'CVC',
+    scan_to_pay: 'Escaneie para Pagar (Yape)',
+    send_screenshot: 'Envie a captura de tela para o WhatsApp.',
+    btn_purchase: 'COMPRAR',
+
+    form_login_title: 'Entrar',
+    form_login_subtitle: 'Digite seus dados',
+    placeholder_password: 'Senha',
+    btn_login: 'Entrar',
+    no_account: 'Não tem uma conta?',
+    register_link: 'Cadastre-se',
+
+    form_register_title: 'Criar uma conta',
+    form_register_subtitle: 'Digite seus dados pessoais',
+    placeholder_fullname: 'Nome completo',
+    placeholder_phone_register: 'Número de telefone',
+    placeholder_address_full: 'Endereço completo',
+    placeholder_confirm_password: 'Confirmar senha',
+    btn_create_account: 'Criar conta',
+    passwords_match: '✔ As senhas coincidem',
+    passwords_no_match: '✖ As senhas não coincidem',
+
     arreglos: 'Nossos Arranjos',
     juguetes: 'Nossos Brinquedos',
     peluches: 'Nossas Pelúcias',
     ropa_bebe: 'Nossa Roupas de Bebê',
+    nosotros: 'Quem Somos',
+    n1: 'Somos "MisJhon", um projeto que nasceu da paixão por criar coisas com significado. Tudo começou com uma ideia simples: e se pudéssemos unir a ternura da infância com a beleza que dura para sempre? Assim decidimos criar um espaço onde ambos os mundos se encontram. Cada produto que você vê em nossa loja é o resultado desse sonho.',
+    n2: 'Em nossa loja, cada item é selecionado com muito cuidado. Por um lado, temos pelúcias, brinquedos e roupas de bebê que são mais do que simples objetos; são companheiros de aventuras e peças que celebram o conforto e a alegria de crescer. Por outro lado, e o que nos torna realmente únicos, são nossos arranjos com flores eternas. Estas não são flores comuns; são criações artesanais que conservam sua beleza e frescor por anos, desenhadas para capturar um momento de beleza e lembrá-lo para sempre.',
+    n3: 'Acreditamos que os melhores presentes são aqueles que têm uma história por trás e que são feitos com o coração. Por isso, nos esforçamos em cada detalhe, desde o design dos nossos produtos até a forma como chegam às suas mãos. Queremos fazer parte dos seus momentos especiais e ajudá-lo a criar memórias inesquecíveis. Obrigado por nos visitar e por fazer parte da nossa história.',
 
     titulo_arreglos: 'Coleção de Arranjos de Rosas Eternas',
     descripcion_arreglos: 'Descubra nossa coleção exclusiva de arranjos de rosas eternas, projetados para capturar a beleza e o amor que perduram para sempre. Perfeitos para presentear em ocasiões especiais ou para decorar sua casa com um toque de elegância e sofisticação.',
@@ -179,8 +458,85 @@ const translations = {
     descripcion_peluches: 'Encontre o peluche perfeito para presentear ou para confortar alguém especial. Nossa coleção inclui uma variedade de adoráveis pelúcias que certamente trazerão risadas e alegria a qualquer ocasião.',
     titulo_ropa_bebe: 'Coleção de Roupas de Bebê',
     descripcion_ropa_bebe: 'Descubra nossa adorable coleção de roupas de bebê, projetada para proporcionar conforto e estilo aos mais pequenos. Desde conjuntos suaves até acessórios encantadores, temos tudo que precisa para vestir seu bebê com ternura e funcionalidade.',
+
+    ia1: 'Aqui na Novidades \"MisJhon\", nossos arranjos de flores eternas são muito mais do que um simples buquê. São peças de arte que capturam a beleza efêmera da natureza e a preservam para sempre. Ao contrário das flores frescas que murcham em poucos dias, nossas flores passaram por um processo especial de conservação que lhes permite manter sua forma, cor e suavidade por anos, sem necessidade de água ou luz solar. Cada arranjo é uma obra única, projetada e elaborada à mão com cuidado e atenção aos detalhes que refletem o valor do artesanal. Com elas, você pode celebrar um momento especial e guardar sua beleza como uma lembrança duradoura.',
+    ia2: 'Nossa coleção de arranjos de flores eternas é tão diversa quanto os sentimentos que você quer expressar. Seja que você procure um arranjo elegante para decorar um espaço, um detalhe romântico para um aniversário ou um presente significativo para um ente querido, temos a peça perfeita para cada ocasião. Temos orgulho de oferecer uma alternativa sustentável e duradoura às flores tradicionais, permitindo-lhe presentear beleza sem limites de tempo. Convidamos você a explorar nossa galeria e encontrar o arranjo que fala por si mesmo, transformando um simples presente em um símbolo de amor e apreço que durará por anos.',
+
+    ij1: 'Na Novidades \"MisJhon\", acreditamos que brincar é uma parte fundamental do crescimento e da exploração. Nossa seção de brinquedos não é um simples catálogo, mas uma cuidadosa seleção de companheiros para a aventura, criatividade e aprendizado. Escolhemos cada brinquedo pensando na sua qualidade, segurança e capacidade de inspirar a imaginação dos mais pequenos. De pelúcias que se tornam confidentes inseparáveis, a jogos que desafiam a mente e fomentam novas habilidades, cada artigo está desenhado para ser mais que um objeto: é uma ferramenta para a diversão e o desenvolvimento.',
+    ij2: 'Nossos brinquedos são feitos para durar e para acompanhar as crianças em suas descobertas. Garantimos que cada um cumpra com os mais altos padrões de segurança e que seja ideal para as diferentes etapas da infância. Por isso, temos orgulho de oferecer artigos que não só entretêm, mas também contribuem para criar memórias valiosas e fomentar a curiosidade natural das crianças. Convidamos você a explorar nossa coleção e encontrar esse brinquedo perfeito que fará alguém sorrir e que, sem dúvida, se tornará parte da sua história.',
+
+    ip1: 'Na Novidades \"MisJhon\", nossas pelúcias são muito mais do que simples brinquedos; são os primeiros melhores amigos, confidentes e companheiros de aventuras. Cada uma delas foi cuidadosamente selecionada por sua suavidade incomparável e sua capacidade de oferecer um abraço quente e reconfortante. Entendemos que uma pelúcia pode se tornar um membro da família, por isso garantimos que cada uma cumpra com os mais altos padrões de qualidade e segurança, projetadas para suportar inúmeras horas de brincadeira, abraços e sonecas.',
+    ip2: 'Nossos brinquedos são feitos para durar e para acompanhar as crianças em suas descobertas. Garantimos que cada um cumpra com os mais altos padrões de segurança e que seja ideal para as diferentes etapas da infância. Por isso, temos orgulho de oferecer artigos que não só entretêm, mas também contribuem para criar memórias valiosas e fomentar a curiosidade natural das crianças. Convidamos você a explorar nossa coleção e encontrar esse brinquedo perfeito que fará alguém sorrir e que, sem dúvida, se tornará parte da sua história.',
+
+    ir1: 'Na Novidades \"MisJhon\", entendemos que a roupa de bebê é muito mais do que apenas vestuário; é uma segunda pele que deve ser tão suave e delicada quanto eles. Nossa coleção de roupas está cuidadosamente selecionada para oferecer o máximo conforto e segurança. Cada peça é escolhida por seus materiais de alta qualidade, que são amigáveis com a pele sensível, transpiráveis e projetados para resistir ao ritmo do dia a dia, desde as brincadeiras até as sonecas. Focamos em um design prático e adorável que facilite as trocas de fralda e o movimento, tornando a vida mais simples para os pais e mais confortável para os pequenos.',
+    ir2: 'Acreditamos que vestir um bebê deveria ser um momento de conexão e alegria. Por isso, nossa gama de roupas vai desde bodys e pijamas essenciais para o dia a dia, até conjuntos e vestidos perfeitos para celebrar esses primeiros momentos especiais. Cada peça reflete nosso compromisso com a qualidade e o conforto, garantindo que seu bebê esteja sempre protegido e com estilo. Convidamos você a explorar nossa coleção e encontrar a peça perfeita que não só fica bem, mas também é incrível de usar.',
+
+    privacy_title: 'Termos e Condições',
+    privacy_nav_purpose: 'Propósito',
+    privacy_nav_account: 'Registro de Conta',
+    privacy_nav_purchase: 'Processo de Compra',
+    privacy_nav_shipping: 'Envio e Entrega',
+    privacy_nav_returns: 'Política de Devolução',
+    privacy_nav_privacy: 'Política de Privacidade',
+    privacy_nav_ip: 'Propriedade Intelectual',
+    privacy_nav_limitation: 'Limitação',
+    privacy_nav_contact: 'Contato',
+
+    contact_title: 'Informações de Contato',
+    contact_email: 'E-mail:',
+    contact_phone: 'Número de Telefone:',
+    contact_social: 'Redes Sociais:',
+
+    a1: 'Arranjo de rosas eternas com ursinho carinhoso',
+    a2: 'Arranjo de rosas eternas com pelúcia Angela',
+    a3: 'Rosa eterna com frase "Feliz Aniversário"',
+    a4: 'Rosa eterna rosa pastel',
+    a5: 'Rosa eterna azul',
+    a6: 'Girassol com frase "Feliz Aniversário"',
+    a7: 'Arranjo de rosas eternas com borboletas',
+    a8: 'Arranjo com 19 rosas eternas, frase e coroa',
+    a9: 'Arranjo de rosas eternas com flores brancas',
+    a10: 'Arranjo de rosas brancas e rosas com coroinha',
+    a11: 'Arranjo coração de fogo, frase Feliz Aniversário',
+    a12: 'Graduado com tulipas',
+    a13: 'Buquê com carrinho Hot Wheels',
+    a14: 'Stitch importado com rosas eternas',
+    a15: 'Girassóis eternos',
+    a16: 'Arranjo de rosas eternas vermelhas com ursinho',
+    a17: 'Girassol mais tulipas',
+    a18: 'Arranjo de rosas eternas amarelas com ursinho branco',
+    a19: 'Arranjo de tulipas rosas com doces e pelúcia',
+    a20: 'Arranjo de ursinho mineiro com rosas eternas azuis',
+    a21: 'Arranjo de rosas azuis com pelúcia de pinguim',
+
+    j1: 'Escavadeira de Brinquedo',
+    j2: 'Kit de Chocalhos 8 unidades (animais)',
+    j3: 'Conjunto de Maquinaria Pesada',
+    j4: 'Escavadeira e Caminhão',
+    j5: 'Carrinho Feliz ABC123',
+    j6: 'Kit de Comidinhas com Velcro',
+    j7: 'Kit de Cozinha 3 em 1',
+    j8: 'Torre de Argolas Empilháveis',
+    j9: 'Carro de Controle Remoto Vermelho',
+
+    p1: 'Ursinho com coração "Te amo"',
+    p2: 'Pinguim antialérgico com touca e mochila',
+    p3: 'Ursinho musical com coração "Love You"',
+    p4: 'Ursinho com gravata borboleta azul claro',
+    p5: 'Pelúcia do Lotso dormindo',
+    p6: 'Pelúcia de ouriço antialérgico',
+
+    r1: 'Conjunto de algodão vermelho (menino)',
+    r2: 'Conjunto de algodão rosa (menina)',
+    r3: 'Roupinha de algodão vermelha (menino)',
+    r4: 'Conjunto de algodão com estampa de rosas',
+    r5: 'Conjunto de algodão azul celeste e cinza (menino)',
+    r6: 'Conjunto para menino com desenho de dinossauros',
+    r7: 'Conjunto forrado marrom (menino)',
+    r8: 'Conjunto de 5 peças Kitty',
+    r9: 'Vestido de algodão vermelho e branco',
   },
-  
+
   fr: {
 
     nav_arreglos: 'Arrangements',
@@ -189,19 +545,19 @@ const translations = {
     nav_ropa_bebe: 'Vêtements Bébé',
     nav_login: 'Connexion',
     nav_register: 'S\'inscrire',
-    
+
 
     home_title: 'Nouveautés "MisJhon"',
     home_headline: 'Tout ce que vous cherchez, en un seul endroit',
     home_description: 'Découvrez des cadeaux uniques pour chaque occasion. Arrangements de roses éternelles, vêtements pour bébés, jouets et peluches de la meilleure qualité.',
     home_how_to_find: 'Comment nous trouver?',
-    
+
 
     cat_arreglos: 'Arrangements de Roses Éternelles',
     cat_juguetes: 'Jouets',
     cat_peluches: 'Peluches',
     cat_ropa_bebe: 'Vêtements Bébé',
-    
+
 
     footer_about: 'À Propos',
     footer_privacy: 'Politique de Confidentialité et Conditions de Service',
@@ -217,21 +573,61 @@ const translations = {
     form_submit: 'Envoyer',
     form_login: 'Se Connecter',
     form_register: 'S\'inscrire',
-    
+
 
     btn_buy: 'Acheter',
     btn_details: 'Voir Détails',
     btn_add_cart: 'Ajouter au Panier',
-    
+
 
     theme_toggle: 'Changer le Thème',
     theme_dark: 'Mode Sombre',
     theme_light: 'Mode Clair',
 
+    form_purchase_title: 'Formulaire d\'Achat par Livraison',
+    form_purchase_subtitle: 'Complétez vos informations de livraison',
+    placeholder_name: 'Nom',
+    placeholder_surname: 'Prénom',
+    placeholder_email: 'E-mail',
+    placeholder_phone: 'Téléphone (ex. 987654321)',
+    placeholder_address: 'Adresse (Rue, Av., Nº, Apt.)',
+    select_district: 'Sélectionnez le District',
+    payment_method: 'Mode de Paiement',
+    payment_card: 'Carte de Crédit/Débit',
+    payment_yape: 'Yape / Plin',
+    card_data: 'Données de la Carte',
+    placeholder_card_number: 'Numéro de Carte (xxxx xxxx xxxx xxxx)',
+    placeholder_card_date: 'MM/AA',
+    placeholder_cvc: 'CVC',
+    scan_to_pay: 'Scannez pour Payer (Yape)',
+    send_screenshot: 'Envoyez la capture d\'écran sur WhatsApp.',
+    btn_purchase: 'ACHETER',
+
+    form_login_title: 'Connexion',
+    form_login_subtitle: 'Entrez vos informations',
+    placeholder_password: 'Mot de passe',
+    btn_login: 'Se Connecter',
+    no_account: 'Vous n\'avez pas de compte ?',
+    register_link: 'Inscrivez-vous',
+
+    form_register_title: 'Créer un compte',
+    form_register_subtitle: 'Entrez vos informations personnelles',
+    placeholder_fullname: 'Nom complet',
+    placeholder_phone_register: 'Numéro de téléphone',
+    placeholder_address_full: 'Adresse complète',
+    placeholder_confirm_password: 'Confirmer le mot de passe',
+    btn_create_account: 'Créer un compte',
+    passwords_match: '✔ Les mots de passe correspondent',
+    passwords_no_match: '✖ Les mots de passe ne correspondent pas',
+
     arreglos: 'Nos Arrangements',
     juguetes: 'Nos Jouets',
     peluches: 'Nos Peluches',
     ropa_bebe: 'Nos Vêtements Bébé',
+    nosotros: 'Qui Sommes-Nous',
+    n1: 'Nous sommes "MisJhon", un projet né de la passion de créer des choses qui ont du sens. Tout a commencé par une idée simple : et si nous pouvions unir la tendresse de l\'enfance à la beauté qui dure pour toujours ? C\'est ainsi que nous avons décidé de créer un espace où ces deux mondes se rencontrent. Chaque produit que vous voyez dans notre boutique est le résultat de ce rêve.',
+    n2: 'Dans notre boutique, chaque article est sélectionné avec le plus grand soin. D\'une part, nous avons des peluches, des jouets et des vêtements pour bébés qui sont plus que de simples objets ; ce sont des compagnons d\'aventures et des vêtements qui célèbrent le confort et la joie de grandir. D\'autre part, ce qui nous rend vraiment uniques, ce sont nos arrangements de fleurs éternelles. Ce ne sont pas des fleurs ordinaires ; ce sont des créations artisanales qui conservent leur beauté et leur fraîcheur pendant des années, conçues pour capturer un moment de beauté et s\'en souvenir pour toujours.',
+    n3: 'Nous croyons que les meilleurs cadeaux sont ceux qui ont une histoire et qui sont faits avec le cœur. C\'est pourquoi nous nous efforçons de soigner chaque détail, de la conception de nos produits à la façon dont ils arrivent entre vos mains. Nous voulons faire partie de vos moments spéciaux et vous aider à créer des souvenirs inoubliables. Merci de nous rendre visite et de faire partie de notre histoire.',
 
     titulo_arreglos: 'Collection d\'Arrangements de Roses Éternelles',
     descripcion_arreglos: 'Découvrez notre collection exclusive d\'arrangements de roses éternelles, conçus pour capturer la beauté et l\'amour qui durent pour toujours. Parfaits pour offrir en occasions spéciales ou pour décorer votre maison avec un air d\'élégance et de sophistication.',
@@ -241,8 +637,84 @@ const translations = {
     descripcion_peluches: 'Trouvez le peluche parfait pour offrir ou pour consoler quelqu\'un de spécial. Notre collection comprend une variété d\'adorables peluches qui certes apporteront des rires et de la joie à toute occasion.',
     titulo_ropa_bebe: 'Collection de Vêtements pour Bébé',
     descripcion_ropa_bebe: 'Découvrez notre adorable collection de vêtements pour bébé, conçue pour apporter du confort et du style aux plus petits. De ensembles doux à des accessoires enchantants, nous avons tout ce dont vous avez besoin pour vêtir votre bébé avec tendresse et fonctionnalité.',
+
+    ia1: 'Ici chez Nouveautés \"MisJhon\", nos arrangements de fleurs éternelles sont bien plus qu\'un simple bouquet. Ce sont des œuvres d\'art qui capturent la beauté éphémère de la nature et la préservent pour toujours. Contrairement aux fleurs fraîches qui fanent en quelques jours, nos fleurs ont subi un processus de conservation spécial qui leur permet de conserver leur forme, leur couleur et leur douceur pendant des années, sans besoin d\'eau ni de lumière du soleil. Chaque arrangement est une œuvre unique, conçue et élaborée à la main avec soin et attention aux détails qui reflètent la valeur de l\'artisanat. Avec elles, vous pouvez célébrer un moment spécial et chérir leur beauté comme un souvenir durable.',
+    ia2: 'Notre collection d\'arrangements de fleurs éternelles est aussi diverse que les sentiments que vous souhaitez exprimer. Que vous cherchiez un arrangement élégant pour décorer un espace, un détail romantique pour un anniversaire ou un cadeau significatif pour un être cher, nous avons la pièce parfaite pour chaque occasion. Nous sommes fiers d\'offrir une alternative durable et écologique aux fleurs traditionnelles, vous permettant d\'offrir la beauté sans limites de temps. Nous vous invitons à explorer notre galerie et à trouver l\'arrangement qui parle de lui-même, transformant un simple cadeau en un symbole d\'amour et d\'appréciation qui durera des années.',
+
+    ij1: 'Chez Nouveautés \"MisJhon\", nous croyons que le jeu est une partie fondamentale de la croissance et de l\'exploration. Notre section jouets n\'est pas un simple catalogue, mais une sélection soigneuse de compagnons pour l\'aventure, la créativité et l\'apprentissage. Nous choisissons chaque jouet en pensant à sa qualité, sa sécurité et sa capacité à inspirer l\'imagination des plus petits. Des peluches qui deviennent des confidents inséparables aux jeux qui défient l\'esprit et favorisent de nouvelles compétences, chaque article est conçu pour être plus qu\'un objet : c\'est un outil pour le plaisir et le développement.',
+    ij2: 'Nos jouets sont faits pour durer et pour accompagner les enfants dans leurs découvertes. Nous nous assurons que chacun réponde aux normes de sécurité les plus élevées et qu\'il soit idéal pour les différentes étapes de l\'enfance. C\'est pourquoi nous sommes fiers d\'offrir des articles qui non seulement divertissent, mais contribuent également à créer des souvenirs précieux et à encourager la curiosité naturelle des enfants. Nous vous invitons à explorer notre collection et à trouver ce jouet parfait qui fera sourire quelqu\'un et qui deviendra sans aucun doute partie de son histoire.',
+
+    ip1: 'Chez Nouveautés \"MisJhon\", nos peluches sont bien plus que de simples jouets ; ce sont les premiers meilleurs amis, confidents et compagnons d\'aventures. Chacune d\'elles a été soigneusement sélectionnée pour sa douceur incomparable et sa capacité à offrir un câlin chaud et réconfortant. Nous comprenons qu\'une peluche peut devenir un membre de la famille, c\'est pourquoi nous nous assurons que chacune réponde aux normes de qualité et de sécurité les plus élevées, conçues pour résister à d\'innombrables heures de jeu, de câlins et de siestes.',
+    ip2: 'Nos jouets sont faits pour durer et pour accompagner les enfants dans leurs découvertes. Nous nous assurons que chacun réponde aux normes de sécurité les plus élevées et qu\'il soit idéal pour les différentes étapes de l\'enfance. C\'est pourquoi nous sommes fiers d\'offrir des articles qui non seulement divertissent, mais contribuent également à créer des souvenirs précieux et à encourager la curiosité naturelle des enfants. Nous vous invitons à explorer notre collection et à trouver ce jouet parfait qui fera sourire quelqu\'un et qui deviendra sans aucun doute partie de son histoire.',
+
+    ir1: 'Chez Nouveautés \"MisJhon\", nous comprenons que les vêtements pour bébé sont bien plus que de simples habits ; c\'est une seconde peau qui doit être aussi douce et délicate qu\'eux. Notre collection de vêtements est soigneusement sélectionnée pour offrir un confort et une sécurité maximaux. Chaque vêtement est choisi pour ses matériaux de haute qualité, qui sont doux pour la peau sensible, respirants et conçus pour résister au rythme du quotidien, des jeux aux siestes. Nous nous concentrons sur un design pratique et adorable qui facilite les changements de couche et le mouvement, rendant la vie plus simple pour les parents et plus confortable pour les petits.',
+    ir2: 'Nous croyons qu\'habiller un bébé devrait être un moment de connexion et de joie. C\'est pourquoi notre gamme de vêtements va des bodys et pyjamas essentiels pour le quotidien, aux ensembles et robes parfaits pour célébrer ces premiers moments spéciaux. Chaque pièce reflète notre engagement envers la qualité et le confort, garantissant que votre bébé soit toujours protégé et élégant. Nous vous invitons à explorer notre collection et à trouver le vêtement parfait qui non seulement est beau, mais qui se sent aussi incroyable.',
+
+    privacy_title: 'Conditions Générales',
+    privacy_nav_purpose: 'Objectif',
+    privacy_nav_account: 'Création de Compte',
+    privacy_nav_purchase: 'Processus d\'Achat',
+    privacy_nav_shipping: 'Expédition et Livraison',
+    privacy_nav_returns: 'Politique de Retour',
+    privacy_nav_privacy: 'Politique de Confidentialité',
+    privacy_nav_ip: 'Propriété Intellectuelle',
+    privacy_nav_limitation: 'Limitation',
+    privacy_nav_contact: 'Contact',
+    contact_title: 'Informations de Contact',
+    contact_email: 'Email:',
+    contact_phone: 'Numéro de Téléphone:',
+    contact_social: 'Réseaux Sociaux:',
+
+    a1: 'Arrangement de roses éternelles avec ours câlin',
+    a2: 'Arrangement de roses éternelles avec peluche Angela',
+    a3: 'Rose éternelle avec phrase "Joyeux Anniversaire"',
+    a4: 'Rose éternelle rose pastel',
+    a5: 'Rose éternelle bleue',
+    a6: 'Tournesol avec phrase "Joyeux Anniversaire"',
+    a7: 'Arrangement de roses éternelles avec papillons',
+    a8: 'Arrangement avec 19 roses éternelles, phrase et couronne',
+    a9: 'Arrangement de roses éternelles avec fleurs blanches',
+    a10: 'Arrangement de roses blanches et roses avec petite couronne',
+    a11: 'Arrangement cœur de feu, phrase Joyeux Anniversaire',
+    a12: 'Diplômé avec tulipes',
+    a13: 'Bouquet avec voiture Hot Wheels',
+    a14: 'Stitch importé avec roses éternelles',
+    a15: 'Tournesols éternels',
+    a16: 'Arrangement de roses éternelles rouges avec ourson',
+    a17: 'Tournesol plus tulipes',
+    a18: 'Arrangement de roses éternelles jaunes avec ourson blanc',
+    a19: 'Arrangement de tulipes roses avec bonbons et peluche',
+    a20: 'Arrangement d\'ourson mineur avec roses éternelles bleues',
+    a21: 'Arrangement de roses bleues avec peluche pingouin',
+
+    j1: 'Pelleteuse Jouet',
+    j2: 'Ensemble de Hochets 8 pièces (animaux)',
+    j3: 'Ensemble d\'Engins de Chantier',
+    j4: 'Pelleteuse et Camion',
+    j5: 'Petite Voiture Joyeuse ABC123',
+    j6: 'Set d\'Aliments à Découper (Velcro)',
+    j7: 'Set de Cuisine 3 en 1',
+    j8: 'Cône à Anneaux Empilables',
+    j9: 'Voiture Télécommandée Rouge',
+
+    p1: 'Ourson avec cœur "Je t\'aime"',
+    p2: 'Pingouin hypoallergénique avec bonnet et sac à dos',
+    p3: 'Ourson musical avec cœur "Love You"',
+    p4: 'Ourson avec nœud papillon bleu ciel',
+    p5: 'Peluche Lotso endormi',
+    p6: 'Peluche hérisson hypoallergénique',
+
+    r1: 'Ensemble en coton rouge (garçon)',
+    r2: 'Ensemble en coton rose (fille)',
+    r3: 'Petit costume en coton rouge (garçon)',
+    r4: 'Ensemble en coton avec motif de roses',
+    r5: 'Ensemble en coton bleu ciel et gris (garçon)',
+    r6: 'Ensemble pour garçon motif dinosaures',
+    r7: 'Ensemble doublé marron (garçon)',
+    r8: 'Ensemble 5 pièces Kitty',
+    r9: 'Robe en coton rouge et blanc',
   },
-  
+
   it: {
 
     nav_arreglos: 'Composizioni',
@@ -251,25 +723,25 @@ const translations = {
     nav_ropa_bebe: 'Abbigliamento Neonato',
     nav_login: 'Accedi',
     nav_register: 'Registrati',
-    
+
 
     home_title: 'Novità "MisJhon"',
     home_headline: 'Tutto ciò che cerchi, in un unico posto',
     home_description: 'Scopri regali unici per ogni occasione. Composizioni di rose eterne, abbigliamento per bambini, giocattoli e peluche della migliore qualità.',
     home_how_to_find: 'Come trovarci?',
-    
+
 
     cat_arreglos: 'Composizioni di Rose Eterne',
     cat_juguetes: 'Giocattoli',
     cat_peluches: 'Peluche',
     cat_ropa_bebe: 'Abbigliamento Neonato',
-    
+
 
     footer_about: 'Chi Siamo',
     footer_privacy: 'Informativa sulla Privacy e Termini di Servizio',
     footer_contact: 'Informazioni di Contatto',
     footer_description: 'Trova il regalo ideale per qualsiasi occasione. Offriamo composizioni di rose eterne, peluche, giocattoli e abbigliamento per neonati, perfetti per celebrare i momenti più speciali della vita.',
-    
+
 
     form_name: 'Nome',
     form_email: 'Email',
@@ -280,21 +752,61 @@ const translations = {
     form_submit: 'Invia',
     form_login: 'Accedi',
     form_register: 'Registrati',
-    
+
 
     btn_buy: 'Acquista',
     btn_details: 'Vedi Dettagli',
     btn_add_cart: 'Aggiungi al Carrello',
-    
+
 
     theme_toggle: 'Cambia Tema',
     theme_dark: 'Modalità Scura',
     theme_light: 'Modalità Chiara',
 
+    form_purchase_title: 'Modulo di Acquisto con Consegna',
+    form_purchase_subtitle: 'Compila i tuoi dati di spedizione',
+    placeholder_name: 'Nome',
+    placeholder_surname: 'Cognome',
+    placeholder_email: 'Email',
+    placeholder_phone: 'Telefono (es. 987654321)',
+    placeholder_address: 'Indirizzo (Via, Viale, Num., App.)',
+    select_district: 'Seleziona Distretto',
+    payment_method: 'Metodo di Pagamento',
+    payment_card: 'Carta di Credito/Debito',
+    payment_yape: 'Yape / Plin',
+    card_data: 'Dati della Carta',
+    placeholder_card_number: 'Numero della Carta (xxxx xxxx xxxx xxxx)',
+    placeholder_card_date: 'MM/AA',
+    placeholder_cvc: 'CVC',
+    scan_to_pay: 'Scansiona per Pagare (Yape)',
+    send_screenshot: 'Invia lo screenshot su WhatsApp.',
+    btn_purchase: 'ACQUISTA',
+
+    form_login_title: 'Accedi',
+    form_login_subtitle: 'Inserisci i tuoi dati',
+    placeholder_password: 'Password',
+    btn_login: 'Accedi',
+    no_account: 'Non hai un account?',
+    register_link: 'Registrati',
+
+    form_register_title: 'Crea un account',
+    form_register_subtitle: 'Inserisci i tuoi dati personali',
+    placeholder_fullname: 'Nome completo',
+    placeholder_phone_register: 'Numero di telefono',
+    placeholder_address_full: 'Indirizzo completo',
+    placeholder_confirm_password: 'Conferma password',
+    btn_create_account: 'Crea account',
+    passwords_match: '✔ Le password corrispondono',
+    passwords_no_match: '✖ Le password non corrispondono',
+
     arreglos: 'Nostre Composizioni',
     juguetes: 'Nostri Giocattoli',
     peluches: 'Nostre Peluche',
     ropa_bebe: 'Nostro Abbigliamento Neonato',
+    nosotros: 'Qui Sommes-Nous',
+    n1: 'Nous sommes "MisJhon", un projet né de la passion de créer des choses qui ont du sens. Tout a commencé par une idée simple : et si nous pouvions unir la tendresse de l\'enfance à la beauté qui dure pour toujours ? C\'est ainsi que nous avons décidé de créer un espace où ces deux mondes se rencontrent. Chaque produit que vous voyez dans notre boutique est le résultat de ce rêve.',
+    n2: 'Dans notre boutique, chaque article est sélectionné avec le plus grand soin. D\'une part, nous avons des peluches, des jouets et des vêtements pour bébés qui sont plus que de simples objets ; ce sont des compagnons d\'aventures et des vêtements qui célèbrent le confort et la joie de grandir. D\'autre part, ce qui nous rend vraiment uniques, ce sont nos arrangements de fleurs éternelles. Ce ne sont pas des fleurs ordinaires ; ce sont des créations artisanales qui conservent leur beauté et leur fraîcheur pendant des années, conçues pour capturer un moment de beauté et s\'en souvenir pour toujours.',
+    n3: 'Nous croyons que les meilleurs cadeaux sont ceux qui ont une histoire et qui sont faits avec le cœur. C\'est pourquoi nous nous efforçons de soigner chaque détail, de la conception de nos produits à la façon dont ils arrivent entre vos mains. Nous voulons faire partie de vos moments spéciaux et vous aider à créer des souvenirs inoubliables. Merci de nous rendre visite et de faire partie de notre histoire.',
 
     titulo_arreglos: 'Collezione di Composizioni di Rose Eterne',
     descripcion_arreglos: 'Scopri la nostra esclusiva collezione di composizioni di rose eterne, progettate per catturare la bellezza e l\'amore che durano per sempre. Perfetti da regalare in occasioni speciali o per decorare la tua casa con un tocco di eleganza e raffinatezza.',
@@ -304,8 +816,85 @@ const translations = {
     descripcion_peluches: 'Trova il peluche perfetto per regalarlo o per consolarlo qualcuno di speciale. La nostra collezione include una varietà di adorabili peluche che certamente porteranno sorrisi e gioia a qualsiasi occasione.',
     titulo_ropa_bebe: 'Collezione di Abbigliamento per Bambini',
     descripcion_ropa_bebe: 'Scopri la nostra adorable collezione di abbigliamento per bambini, progettata per fornire comfort e stile ai più piccoli. Da setti dolci a accessori encantanti, abbiamo tutto ciò che hai bisogno per vestire il tuo bambino con tenderezza e funzionalità.',
+
+    ia1: 'Qui a Novità \"MisJhon\", le nostre composizioni di fiori eterni sono molto più di un semplice mazzo. Sono opere d\'arte che catturano la bellezza effimera della natura e la preservano per sempre. A differenza dei fiori freschi che appassiscono in pochi giorni, i nostri fiori hanno subito un processo di conservazione speciale che permette loro di mantenere la loro forma, colore e morbidezza per anni, senza bisogno di acqua o luce solare. Ogni composizione è un\'opera unica, progettata ed elaborata a mano con cura e attenzione ai dettagli che riflettono il valore dell\'artigianato. Con esse, puoi celebrare un momento speciale e conservare la loro belleza come un ricordo duraturo.',
+    ia2: 'La nostra collezione di composizioni di fiori eterni è tanto diversa quanto i sentimenti che vuoi esprimere. Che tu stia cercando una composizione elegante per decorare uno spazio, un dettaglio romantico per un anniversario o un regalo significativo per una persona cara, abbiamo il pezzo perfetto per ogni occasione. Siamo orgogliosi di offrire un\'alternativa sostenibile e duratura ai fiori tradizionali, permettendoti di regalare bellezza senza limiti di tempo. Ti invitiamo a esplorare la nostra galleria e trovare la composizione che parla da sola, trasformando un semplice regalo in un simbolo di amore e apprezzamento che durerà per anni.',
+
+    ij1: 'A Novità \"MisJhon\", crediamo che il gioco sia una parte fondamentale della crescita e dell\'esplorazione. La nostra sezione giocattoli non è un semplice catalogo, ma una selezione accurata di compagni per l\'avventura, la creatività e l\'apprendimento. Scegliamo ogni giocattolo pensando alla sua qualità, sicurezza e capacità di ispirare l\'immaginazione dei più piccoli. Dai peluche che diventano confidenti inseparabili, ai giochi che sfidano la mente e favoriscono nuove competenze, ogni articolo è progettato per essere più di un oggetto: è uno strumento per il divertimento e lo sviluppo.',
+    ij2: 'I nostri giocattoli sono fatti per durare e per accompagnare i bambini nelle loro scoperte. Ci assicuriamo che ognuno soddisfi i più alti standard di sicurezza e sia ideale per le diverse fasi dell\'infanzia. Per questo siamo orgogliosi di offrire articoli che non solo intrattengono, ma contribuiscono anche a creare ricordi preziosi e a favorire la curiosità naturale dei bambini. Ti invitiamo a esplorare la nostra collezione e trovare quel giocattolo perfetto che farà sorridere qualcuno e che, senza dubbio, diventerà parte della sua storia.',
+
+    ip1: 'A Novità \"MisJhon\", i nostri peluche sono molto più di semplici giocattoli; sono i primi migliori amici, confidenti e compagni di avventure. Ognuno di essi è stato accuratamente selezionato per la sua morbidezza incomparabile e la sua capacità di offrire un abbraccio caldo e confortante. Capiamo che un peluche può diventare un membro della famiglia, per questo ci assicuriamo che ognuno soddisfi i più alti standard di qualità e sicurezza, progettati per resistere a innumerevoli ore di gioco, abbracci e sonnellini.',
+    ip2: 'I nostri giocattoli sono fatti per durare e per accompagnare i bambini nelle loro scoperte. Ci assicuriamo che ognuno soddisfi i più alti standard di sicurezza e sia ideale per le diverse fasi dell\'infanzia. Per questo siamo orgogliosi di offrire articoli che non solo intrattengono, ma contribuiscono anche a creare ricordi preziosi e a favorire la curiosità naturale dei bambini. Ti invitiamo a esplorare la nostra collezione e trovare quel giocattolo perfetto che farà sorridere qualcuno e che, senza dubbio, diventerà parte della sua storia.',
+
+    ir1: 'A Novità \"MisJhon\", capiamo che i vestiti per bambini sono molto più di semplici indumenti; sono una seconda pelle che deve essere morbida e delicata come loro. La nostra collezione di abbigliamento è accuratamente selezionata per offrire il massimo comfort e sicurezza. Ogni capo è scelto per i suoi materiali di alta qualità, che sono delicati sulla pelle sensibile, traspiranti e progettati per resistere al ritmo della vita quotidiana, dai giochi ai sonnellini. Ci concentriamo su un design pratico e adorabile che facilita i cambi del pannolino e il movimento, rendendo la vita più semplice per i genitori e più confortevole per i piccoli.',
+    ir2: 'Crediamo che vestire un bambino dovrebbe essere un momento di connessione e gioia. Per questo la nostra gamma di abbigliamento va dai body e pigiami essenziali per la vita quotidiana, ai completi e vestiti perfetti per celebrare quei primi momenti speciali. Ogni pezzo riflette il nostro impegno per la qualità e il comfort, garantendo che il tuo bambino sia sempre protetto e con stile. Ti invitiamo a esplorare la nostra collezione e trovare il capo perfetto che non solo sta bene, ma si sente anche incredibile.',
+
+    privacy_title: 'Termini e Condizioni',
+    privacy_nav_purpose: 'Scopo',
+    privacy_nav_account: 'Registrazione Account',
+    privacy_nav_purchase: 'Processo di Acquisto',
+    privacy_nav_shipping: 'Spedizione e Consegna',
+    privacy_nav_returns: 'Politica di Reso',
+    privacy_nav_privacy: 'Politica sulla Riservatezza',
+    privacy_nav_ip: 'Proprietà Intellettuale',
+    privacy_nav_limitation: 'Limitazione',
+    privacy_nav_contact: 'Contatto',
+
+    contact_title: 'Informazioni di Contatto',
+    contact_email: 'Email:',
+    contact_phone: 'Numero di Telefono:',
+    contact_social: 'Social Network:',
+
+    a1: 'Composizione di rose eterne con orsetto affettuoso',
+    a2: 'Composizione di rose eterne con peluche Angela',
+    a3: 'Rosa eterna con frase "Buon Compleanno"',
+    a4: 'Rosa eterna rosa pastello',
+    a5: 'Rosa eterna blu',
+    a6: 'Girasole con frase "Buon Compleanno"',
+    a7: 'Composizione di rose eterne con farfalle',
+    a8: 'Composizione con 19 rose eterne, frase e corona',
+    a9: 'Composizione di rose eterne con fiori bianchi',
+    a10: 'Composizione di rose bianche e rosa con coroncina',
+    a11: 'Composizione cuore di fuoco, frase Buon Compleanno',
+    a12: 'Laureato con tulipani',
+    a13: 'Bouquet con macchinina Hot Wheels',
+    a14: 'Stitch importato con rose eterne',
+    a15: 'Girasoli eterni',
+    a16: 'Composizione di rose eterne rosse con orsetto',
+    a17: 'Girasole più tulipani',
+    a18: 'Composizione di rose eterne gialle con orsetto bianco',
+    a19: 'Composizione di tulipani rosa con dolci e peluche',
+    a20: 'Composizione orsetto minatore con rose eterne blu',
+    a21: 'Composizione di rose blu con peluche pinguino',
+
+    j1: 'Escavatore Giocattolo',
+    j2: 'Set Sonagli 8 pezzi (animaletti)',
+    j3: 'Set Macchine Movimento Terra',
+    j4: 'Escavatore e Camion',
+    j5: 'Macchinina Felice ABC123',
+    j6: 'Set Cibo da Tagliare con Velcro',
+    j7: 'Set Cucina 3 in 1',
+    j8: 'Torre di Anelli Impilabili',
+    j9: 'Auto Telecomandata Rossa',
+
+    p1: 'Orsetto con cuore "Ti amo"',
+    p2: 'Pinguino anallergico con berretto e zaino',
+    p3: 'Orsetto musicale con cuore "Love You"',
+    p4: 'Orsetto con papillon celeste',
+    p5: 'Peluche di Lotso addormentato',
+    p6: 'Peluche riccio anallergico',
+
+    r1: 'Completino in cotone rosso (bambino)',
+    r2: 'Completino in cotone rosa (bambina)',
+    r3: 'Tutina in cotone rosso (bambino)',
+    r4: 'Completino in cotone con motivo a rose',
+    r5: 'Completino in cotone celeste e grigio (bambino)',
+    r6: 'Completino da bambino con dinosauri',
+    r7: 'Completino foderato marrone (bambino)',
+    r8: 'Set 5 pezzi Kitty',
+    r9: 'Vestito in cotone rosso e bianco',
   },
-  
+
   de: {
 
     nav_arreglos: 'Arrangements',
@@ -314,19 +903,19 @@ const translations = {
     nav_ropa_bebe: 'Babykleidung',
     nav_login: 'Anmelden',
     nav_register: 'Registrieren',
-    
+
 
     home_title: 'Neuheiten "MisJhon"',
     home_headline: 'Alles, was Sie suchen, an einem Ort',
     home_description: 'Entdecken Sie einzigartige Geschenke für jeden Anlass. Arrangements mit ewigen Rosen, Babykleidung, Spielzeug und Plüschtiere in bester Qualität.',
     home_how_to_find: 'Wie Sie uns finden?',
-    
+
 
     cat_arreglos: 'Ewige Rosen-Arrangements',
     cat_juguetes: 'Spielzeug',
     cat_peluches: 'Plüschtiere',
     cat_ropa_bebe: 'Babykleidung',
-    
+
 
     footer_about: 'Über Uns',
     footer_privacy: 'Datenschutzrichtlinie und Nutzungsbedingungen',
@@ -342,21 +931,61 @@ const translations = {
     form_submit: 'Senden',
     form_login: 'Anmelden',
     form_register: 'Registrieren',
-    
+
 
     btn_buy: 'Kaufen',
     btn_details: 'Details Ansehen',
     btn_add_cart: 'In den Warenkorb',
-    
+
 
     theme_toggle: 'Thema Wechseln',
     theme_dark: 'Dunkler Modus',
     theme_light: 'Heller Modus',
 
+    form_purchase_title: 'Lieferkauf-Formular',
+    form_purchase_subtitle: 'Vervollständigen Sie Ihre Versanddaten',
+    placeholder_name: 'Name',
+    placeholder_surname: 'Nachname',
+    placeholder_email: 'E-Mail',
+    placeholder_phone: 'Telefon (z.B. 987654321)',
+    placeholder_address: 'Adresse (Straße, Allee, Nr., Whg.)',
+    select_district: 'Bezirk Auswählen',
+    payment_method: 'Zahlungsmethode',
+    payment_card: 'Kredit-/Debitkarte',
+    payment_yape: 'Yape / Plin',
+    card_data: 'Kartendaten',
+    placeholder_card_number: 'Kartennummer (xxxx xxxx xxxx xxxx)',
+    placeholder_card_date: 'MM/JJ',
+    placeholder_cvc: 'CVC',
+    scan_to_pay: 'Scannen zum Bezahlen (Yape)',
+    send_screenshot: 'Senden Sie den Screenshot an WhatsApp.',
+    btn_purchase: 'KAUFEN',
+
+    form_login_title: 'Anmelden',
+    form_login_subtitle: 'Geben Sie Ihre Daten ein',
+    placeholder_password: 'Passwort',
+    btn_login: 'Anmelden',
+    no_account: 'Haben Sie kein Konto?',
+    register_link: 'Registrieren',
+
+    form_register_title: 'Ein Konto erstellen',
+    form_register_subtitle: 'Geben Sie Ihre persönlichen Daten ein',
+    placeholder_fullname: 'Vollständiger Name',
+    placeholder_phone_register: 'Telefonnummer',
+    placeholder_address_full: 'Vollständige Adresse',
+    placeholder_confirm_password: 'Passwort bestätigen',
+    btn_create_account: 'Konto erstellen',
+    passwords_match: '✔ Passwörter stimmen überein',
+    passwords_no_match: '✖ Passwörter stimmen nicht überein',
+
     arreglos: 'Unsere Arrangements',
     juguetes: 'Unsere Spielzeug',
     peluches: 'Unsere Plüschtiere',
     ropa_bebe: 'Unsere Babykleidung',
+    nosotros: 'Wer wir sind',
+    n1: 'Wir sind "MisJhon", ein Projekt, das aus der Leidenschaft geboren wurde, Dinge mit Bedeutung zu schaffen. Alles begann mit einer einfachen Idee: Was wäre, wenn wir die Zärtlichkeit der Kindheit mit der Schönheit verbinden könnten, die ewig währt? So beschlossen wir, einen Raum zu schaffen, in dem sich beide Welten treffen. Jedes Produkt, das Sie in unserem Geschäft sehen, ist das Ergebnis dieses Traums.',
+    n2: 'In unserem Geschäft wird jeder Artikel mit größter Sorgfalt ausgewählt. Einerseits haben wir Plüschtiere, Spielzeug und Babykleidung, die mehr als nur einfache Gegenstände sind; sie sind Abenteuerbegleiter und Kleidungsstücke, die den Komfort und die Freude am Wachsen feiern. Andererseits, und das macht uns wirklich einzigartig, sind unsere Arrangements mit ewigen Blumen. Dies sind keine gewöhnlichen Blumen; es sind handgefertigte Kreationen, die ihre Schönheit und Frische jahrelang bewahren, entworfen, um einen Moment der Schönheit einzufangen und ihn für immer in Erinnerung zu behalten.',
+    n3: 'Wir glauben, dass die besten Geschenke diejenigen sind, die eine Geschichte haben und die mit Herz gemacht sind. Deshalb bemühen wir uns um jedes Detail, vom Design unserer Produkte bis hin zu der Art und Weise, wie sie in Ihre Hände gelangen. Wir möchten Teil Ihrer besonderen Momente sein und Ihnen helfen, unvergessliche Erinnerungen zu schaffen. Danke, dass Sie uns besuchen und Teil unserer Geschichte sind.',
 
     titulo_arreglos: 'Kollektion von Ewigen Rosen-Arrangements',
     descripcion_arreglos: 'Entdecken Sie unsere exklusive Kollektion von ewigen Rosen-Arrangements, entworfen, um die Schönheit und die Liebe einzufangen, die ewig währen. Perfekt als Geschenk für besondere Anlässe oder um Ihr Zuhause mit einem Hauch von Eleganz und Raffinesse zu schmücken.',
@@ -366,6 +995,83 @@ const translations = {
     descripcion_peluches: 'Finden Sie das perfekte Plüschtier, um zu подарieren oder jemandem besonderen zu consolieren. Unser Sammlung umfasst eine Vielzahl von adorablen Plüschtiere, die sicherlich Lachen und Freude zu jeder Gelegenheit bringen werden.',
     titulo_ropa_bebe: 'Kollektion von Babykleidung',
     descripcion_ropa_bebe: 'Entdecken Sie unsere adorable Kollektion von Babykleidung, entworfen, um Komfort und Stil den kleinsten zu bieten. Von weichen Sets bis zuzaubernden Accessoires, haben wir alles, was Sie benötigen, um Ihren Baby mit Tugend und Funktionalität zu tragen.',
+
+    ia1: 'Hier bei Neuheiten \"MisJhon\" sind unsere ewigen Blumenarrangements viel mehr als ein einfacher Strauß. Sie sind Kunstwerke, die die vergängliche Schönheit der Natur einfangen und für immer bewahren. Im Gegensatz zu frischen Blumen, die in wenigen Tagen verwelken, haben unsere Blumen einen speziellen Konservierungsprozess durchlaufen, der es ihnen ermöglicht, ihre Form, Farbe und Weichheit jahrelang zu bewahren, ohne Wasser oder Sonnenlicht zu benötigen. Jedes Arrangement ist ein einzigartiges Werk, von Hand entworfen und mit Sorgfalt und Liebe zum Detail gefertigt, das den Wert des Handwerks widerspiegelt. Mit ihnen können Sie einen besonderen Moment feiern und ihre Schönheit als bleibende Erinnerung bewahren.',
+    ia2: 'Unsere Kollektion von ewigen Blumenarrangements ist so vielfältig wie die Gefühle, die Sie ausdrücken möchten. Ob Sie ein elegantes Arrangement suchen, um einen Raum zu dekorieren, ein romantisches Detail für einen Jahrestag oder ein bedeutungsvolles Geschenk für einen geliebten Menschen, wir haben das perfekte Stück für jeden Anlass. Wir sind stolz darauf, eine nachhaltige und langlebige Alternative zu traditionellen Blumen anzubieten, die es Ihnen ermöglicht, Schönheit ohne Zeitgrenzen zu verschenken. Wir laden Sie ein, unsere Galerie zu erkunden und das Arrangement zu finden, das für sich selbst spricht und ein einfaches Geschenk in ein Symbol der Liebe und Wertschätzung verwandelt, das jahrelang halten wird.',
+
+    ij1: 'Bei Neuheiten \"MisJhon\" glauben wir, dass Spielen ein grundlegender Teil des Wachstums und der Erkundung ist. Unsere Spielzeugabteilung ist nicht nur ein einfacher Katalog, sondern eine sorgfältige Auswahl von Begleitern für Abenteuer, Kreativität und Lernen. Wir wählen jedes Spielzeug mit Blick auf seine Qualität, Sicherheit und Fähigkeit, die Fantasie der Kleinen zu inspirieren. Von Plüschtieren, die zu unzertrennlichen Vertrauten werden, bis zu Spielen, die den Geist herausfordern und neue Fähigkeiten fördern, ist jeder Artikel darauf ausgelegt, mehr als ein Objekt zu sein: er ist ein Werkzeug für Spaß und Entwicklung.',
+    ij2: 'Unsere Spielzeuge sind gemacht, um zu halten und Kinder bei ihren Entdeckungen zu begleiten. Wir stellen sicher, dass jedes den höchsten Sicherheitsstandards entspricht und für die verschiedenen Phasen der Kindheit ideal ist. Deshalb sind wir stolz darauf, Artikel anzubieten, die nicht nur unterhalten, sondern auch dazu beitragen, wertvolle Erinnerungen zu schaffen und die natürliche Neugier der Kinder zu fördern. Wir laden Sie ein, unsere Kollektion zu erkunden und das perfekte Spielzeug zu finden, das jemanden zum Lächeln bringt und zweifellos Teil seiner Geschichte wird.',
+
+    ip1: 'Bei Neuheiten \"MisJhon\" sind unsere Plüschtiere viel mehr als einfache Spielzeuge; sie sind die ersten besten Freunde, Vertraute und Abenteuerbegleiter. Jedes von ihnen wurde sorgfältig für seine unvergleichliche Weichheit und seine Fähigkeit ausgewählt, eine warme und tröstende Umarmung zu bieten. Wir verstehen, dass ein Plüschtier zu einem Familienmitglied werden kann, deshalb stellen wir sicher, dass jedes den höchsten Qualitäts- und Sicherheitsstandards entspricht, entworfen, um unzählige Stunden Spiel, Umarmungen und Nickerchen zu überstehen.',
+    ip2: 'Unsere Spielzeuge sind gemacht, um zu halten und Kinder bei ihren Entdeckungen zu begleiten. Wir stellen sicher, dass jedes den höchsten Sicherheitsstandards entspricht und für die verschiedenen Phasen der Kindheit ideal ist. Deshalb sind wir stolz darauf, Artikel anzubieten, die nicht nur unterhalten, sondern auch dazu beitragen, wertvolle Erinnerungen zu schaffen und die natürliche Neugier der Kinder zu fördern. Wir laden Sie ein, unsere Kollektion zu erkunden und das perfekte Spielzeug zu finden, das jemanden zum Lächeln bringt und zweifellos Teil seiner Geschichte wird.',
+
+    ir1: 'Bei Neuheiten \"MisJhon\" verstehen wir, dass Babykleidung viel mehr als nur Kleidung ist; sie ist eine zweite Haut, die so weich und zart sein sollte wie sie. Unsere Kleidungskollektion ist sorgfältig ausgewählt, um maximalen Komfort und Sicherheit zu bieten. Jedes Kleidungsstück wird für seine hochwertigen Materialien ausgewählt, die sanft zur empfindlichen Haut sind, atmungsaktiv und für den Alltag konzipiert sind, vom Spielen bis zum Nickerchen. Wir konzentrieren uns auf ein praktisches und entzückendes Design, das das Windelwechseln und die Bewegung erleichtert und das Leben für Eltern einfacher und für die Kleinen komfortabler macht.',
+    ir2: 'Wir glauben, dass das Anziehen eines Babys ein Moment der Verbindung und Freude sein sollte. Deshalb reicht unsere Kleidungspalette von essentiellen Bodys und Schlafanzügen für den Alltag bis zu Outfits und Kleidern, die perfekt sind, um diese ersten besonderen Momente zu feiern. Jedes Stück spiegelt unser Engagement für Qualität und Komfort wider und stellt sicher, dass Ihr Baby immer geschützt und stilvoll ist. Wir laden Sie ein, unsere Kollektion zu erkunden und das perfekte Kleidungsstück zu finden, das nicht nur gut aussieht, sondern sich auch unglaublich anfühlt.',
+
+    privacy_title: 'Allgemeine Geschäftsbedingungen',
+    privacy_nav_purpose: 'Zweck',
+    privacy_nav_account: 'Kontoregistrierung',
+    privacy_nav_purchase: 'Kaufprozess',
+    privacy_nav_shipping: 'Versand und Lieferung',
+    privacy_nav_returns: 'Rückgaberecht',
+    privacy_nav_privacy: 'Datenschutzrichtlinie',
+    privacy_nav_ip: 'Geistiges Eigentum',
+    privacy_nav_limitation: 'Haftungsbeschränkung',
+    privacy_nav_contact: 'Kontakt',
+
+    contact_title: 'Kontaktinformationen',
+    contact_email: 'E-Mail:',
+    contact_phone: 'Telefonnummer:',
+    contact_social: 'Soziale Netzwerke:',
+
+    a1: 'Arrangement aus ewigen Rosen mit Kuschelbär',
+    a2: 'Arrangement aus ewigen Rosen mit Angela Plüschtier',
+    a3: 'Ewige Rose mit Spruch "Alles Gute zum Geburtstag"',
+    a4: 'Pastellrosa ewige Rose',
+    a5: 'Blaue ewige Rose',
+    a6: 'Sonnenblume mit Spruch "Alles Gute zum Geburtstag"',
+    a7: 'Arrangement aus ewigen Rosen mit Schmetterlingen',
+    a8: 'Arrangement mit 19 ewigen Rosen, Spruch und Krone',
+    a9: 'Arrangement aus ewigen Rosen mit weißen Blumen',
+    a10: 'Arrangement aus weißen und rosa Rosen mit Krönchen',
+    a11: 'Feuerherz-Arrangement, Spruch Alles Gute zum Geburtstag',
+    a12: 'Absolvent mit Tulpen',
+    a13: 'Strauß mit Hot Wheels Auto',
+    a14: 'Importierter Stitch mit ewigen Rosen',
+    a15: 'Ewige Sonnenblumen',
+    a16: 'Arrangement aus roten ewigen Rosen mit Bärchen',
+    a17: 'Sonnenblume plus Tulpen',
+    a18: 'Arrangement aus gelben ewigen Rosen mit weißem Bärchen',
+    a19: 'Arrangement aus rosa Tulpen mit Süßigkeiten und Plüschtier',
+    a20: 'Bergmann-Bärchen Arrangement mit blauen ewigen Rosen',
+    a21: 'Arrangement aus blauen Rosen mit Pinguin-Plüschtier',
+
+    j1: 'Spielzeugbagger',
+    j2: 'Rassel-Set 8 Stück (Tiere)',
+    j3: 'Baustellenfahrzeuge-Set',
+    j4: 'Bagger und Lastwagen',
+    j5: 'Fröhliches Auto ABC123',
+    j6: 'Lebensmittel-Set zum Schneiden (Klettverschluss)',
+    j7: '3-in-1 Küchenset',
+    j8: 'Stapelring-Kegel',
+    j9: 'Rotes ferngesteuertes Auto',
+
+    p1: 'Teddybär mit "Ich liebe dich"-Herz',
+    p2: 'Hypoallergener Pinguin mit Mütze und Rucksack',
+    p3: 'Musik-Teddybär mit "Love You"-Herz',
+    p4: 'Teddybär mit hellblauer Fliege',
+    p5: 'Schlafender Lotso Plüschtier',
+    p6: 'Hypoallergenes Igel-Plüschtier',
+
+    r1: 'Rotes Baumwoll-Set (Junge)',
+    r2: 'Rosa Baumwoll-Set (Mädchen)',
+    r3: 'Roter Baumwollanzug (Junge)',
+    r4: 'Baumwoll-Set mit Rosenmuster',
+    r5: 'Hellblaues und graues Baumwoll-Set (Junge)',
+    r6: 'Jungen-Set mit Dinosauriermotiv',
+    r7: 'Gefüttertes braunes Set (Junge)',
+    r8: '5-teiliges Kitty-Set',
+    r9: 'Rot-weißes Baumwollkleid',
   }
 };
 

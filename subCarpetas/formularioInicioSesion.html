@@ -163,12 +163,14 @@
   <main class="bg-gray-50 dark:bg-gray-900">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-lg">
-        <h2 class="text-center text-2xl font-bold text-gray-900 dark:text-white sm:text-3xl">
+        <h2 class="text-center text-2xl font-bold text-gray-900 dark:text-white sm:text-3xl"
+          data-translate="form_login_title">
           Ingresar
         </h2>
 
         <form action="#" class="mt-6 mb-0 space-y-4 rounded-lg p-4 shadow-xl sm:p-6 lg:p-8 bg-white dark:bg-gray-800">
-          <p class="text-center text-lg font-medium text-gray-900 dark:text-white">Ingresa tus datos</p>
+          <p class="text-center text-lg font-medium text-gray-900 dark:text-white" data-translate="form_login_subtitle">
+            Ingresa tus datos</p>
 
           <div>
             <label for="nombre" class="sr-only">Nombre</label>
@@ -176,7 +178,7 @@
             <div class="relative">
               <input required type="text" name="nombre" id="nombre"
                 class="w-full rounded-lg border-gray-200 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-200 placeholder-gray-500 p-4 pe-12 text-sm shadow-sm"
-                placeholder="Nombre" />
+                placeholder="Nombre" data-translate-placeholder="placeholder_name" />
 
               <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
                 <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gray-500 dark:text-gray-200" fill="none"
@@ -194,7 +196,7 @@
             <div class="relative">
               <input required type="password" name="password" id="password"
                 class="w-full rounded-lg border-gray-200 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-200 placeholder-gray-500 p-4 pe-12 text-sm shadow-sm"
-                placeholder="Contraseña" />
+                placeholder="Contraseña" data-translate-placeholder="placeholder_password" />
 
               <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
                 <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gray-500 dark:text-gray-200" fill="none"
@@ -204,13 +206,14 @@
                 </svg>
               </span>
             </div>
-            <input type="submit" value="Ingresar"
+            <input type="submit" value="Ingresar" data-translate-value="btn_login"
               class=" mt-4 w-full bg-pink-500 rounded-lg px-5 p-3 hover:bg-pink-600  font-medium text-white dark:placeholder-gray-200 placeholder-gray-500">
           </div>
         </form>
         <p class="text-center mt-4 text-gray-500 dark:text-gray-400">
-          ¿No tienes una cuenta?
-          <a class="text-pink-600 hover:underline" href="../subCarpetas/formularioRegistro.html">Regístrate</a>
+          <span data-translate="no_account">¿No tienes una cuenta?</span>
+          <a class="text-pink-600 hover:underline" href="../subCarpetas/formularioRegistro.html"
+            data-translate="register_link">Regístrate</a>
         </p>
       </div>
     </div>

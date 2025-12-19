@@ -162,13 +162,15 @@
   <main class="bg-gray-50 dark:bg-gray-900">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-lg">
-        <h2 class="text-center text-2xl font-bold text-gray-900 dark:text-white sm:text-3xl">
+        <h2 class="text-center text-2xl font-bold text-gray-900 dark:text-white sm:text-3xl"
+          data-translate="form_register_title">
           Crear una cuenta
         </h2>
 
         <form id="formRegistro" class="mt-6 mb-0 space-y-6 rounded-lg p-6 shadow-xl bg-white dark:bg-gray-800">
 
-          <p class="text-center text-lg font-medium text-gray-900 dark:text-white">
+          <p class="text-center text-lg font-medium text-gray-900 dark:text-white"
+            data-translate="form_register_subtitle">
             Ingresa tus datos personales
           </p>
 
@@ -182,7 +184,7 @@
               </svg>
               <input type="text" required name="nombre"
                 class="w-full rounded-lg border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white pl-12 p-3 text-sm shadow-sm dark:placeholder-gray-200 placeholder-gray-500"
-                placeholder="Nombre completo">
+                placeholder="Nombre completo" data-translate-placeholder="placeholder_fullname">
             </div>
           </div>
 
@@ -196,7 +198,7 @@
               </svg>
               <input type="email" required name="email"
                 class="w-full rounded-lg border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white pl-12 p-3 text-sm shadow-sm dark:placeholder-gray-200 placeholder-gray-500"
-                placeholder="Correo electrónico">
+                placeholder="Correo electrónico" data-translate-placeholder="placeholder_email">
             </div>
           </div>
 
@@ -210,7 +212,7 @@
               </svg>
               <input type="tel" required name="telefono"
                 class="w-full rounded-lg border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white pl-12 p-3 text-sm shadow-sm dark:placeholder-gray-200 placeholder-gray-500"
-                placeholder="Número de teléfono">
+                placeholder="Número de teléfono" data-translate-placeholder="placeholder_phone_register">
             </div>
           </div>
 
@@ -224,7 +226,7 @@
               </svg>
               <input type="text" required name="direccion"
                 class="w-full rounded-lg border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white pl-12 p-3 text-sm shadow-sm dark:placeholder-gray-200 placeholder-gray-500"
-                placeholder="Dirección completa">
+                placeholder="Dirección completa" data-translate-placeholder="placeholder_address_full">
             </div>
           </div>
 
@@ -233,7 +235,7 @@
 
             <select name="region" id="region" required
               class="w-full rounded-lg dark:bg-gray-700 dark:text-white p-4 text-sm shadow-sm ">
-              <option value="" disabled selected>Seleccione Distrito</option>
+              <option value="" disabled selected data-translate="select_district">Seleccione Distrito</option>
               <option value="trujillo">Trujillo</option>
               <option value="el_porvenir">El Porvenir</option>
               <option value="florencia_de_mora">Florencia de Mora</option>
@@ -258,7 +260,7 @@
               </svg>
               <input type="password" id="password" required
                 class="w-full rounded-lg border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white pl-12 p-3 text-sm shadow-sm dark:placeholder-gray-200 placeholder-gray-500"
-                placeholder="Contraseña">
+                placeholder="Contraseña" data-translate-placeholder="placeholder_password">
             </div>
           </div>
 
@@ -273,11 +275,11 @@
 
               <input type="password" id="password2" required
                 class="w-full rounded-lg border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white pl-12 p-3 text-sm shadow-sm dark:placeholder-gray-200 placeholder-gray-500"
-                placeholder="Confirmar contraseña">
+                placeholder="Confirmar contraseña" data-translate-placeholder="placeholder_confirm_password">
             </div>
             <p id="msgPass" class="text-sm mt-1 font-medium"></p>
           </div>
-          <input type="submit" value="Crear cuenta"
+          <input type="submit" value="Crear cuenta" data-translate-value="btn_create_account"
             class="mt-4 w-full bg-pink-500 rounded-lg px-5 p-3 hover:bg-pink-600 active:bg-pink-600 font-medium text-white cursor-pointer">
 
         </form>
@@ -383,11 +385,14 @@
         return;
       }
 
+      const currentLang = localStorage.getItem('misjhon-language') || 'es';
+      const langData = window.translations ? window.translations[currentLang] : null;
+
       if (pass.value === pass2.value) {
-        msg.textContent = "✔ Las contraseñas coinciden";
+        msg.textContent = langData ? langData.passwords_match : "✔ Las contraseñas coinciden";
         msg.className = "text-green-500 text-sm mt-1";
       } else {
-        msg.textContent = "✖ Las contraseñas no coinciden";
+        msg.textContent = langData ? langData.passwords_no_match : "✖ Las contraseñas no coinciden";
         msg.className = "text-red-500 text-sm mt-1";
       }
     }
